@@ -37,14 +37,15 @@
             margin-bottom: 20%;
             position: relative; 
             background: #ffc700;
+            height: auto; 
         }
 
         .midpin {
             padding-top: 0;
             margin: 10px 50%;
-            margin-top: 30px;
-            height: 20px;
-            width: 170px;
+            margin-top: 9px;
+            height: 7px;
+            width: 60px;
             border: none;
             transform: translate(-54%, -58%);
             position: absolute;
@@ -53,22 +54,18 @@
             cursor: auto;
         }
 
-        .scroll-div {
-            height: auto; 
-            position: relative;
-        }
+     
 
         .box {
             width: 100%; 
             height: auto; 
-            position: relative;
             transition: transform 0.3s;
             overflow: hidden; 
         }
 
         .box:nth-child(1) {
             border-radius: 25px; 
-            height: 150vh;
+            height: 75vh;
         }
 
         .box:nth-child(2) {
@@ -119,7 +116,37 @@
             margin-top: -50vh; 
             height: 300vh;
         }
+        .history{
+            width: 40%;
+            float: right;
+            margin-top: 7%;
+            margin-right: 4%;
+            object-fit: cover;
+        }
 
+        .jumpd{          
+            width: 50%;
+            margin-top: 14%; 
+            position: absolute;
+            z-index: 1;        
+            object-fit: cover;
+        }
+
+        .text1{
+            font-size: 8px;        
+            float: right;
+            margin-right: 2%;
+            z-index: 1;
+            margin-top: 3%;
+            margin-left: 20%;
+            margin-right: 5%;
+            font-family: 'Kumbh Sans', sans-serif;
+            font-weight: bold;
+            text-align: justify;
+            text-align-last: right;
+           
+           
+        }
 
 
     </style>
@@ -128,7 +155,9 @@
     <div class="content scroll-div">
         <div class="box">
             <button class="midpin"> </button>
-
+            <img src="Alabay Assets/History Of ALABAY.png" alt="Alabayh" class="history">
+            <img src="Alabay Assets/jump.png" alt="jump" class="jumpd">
+<p class="text1">The Central Asian Shepherd Dog,<br>also known as Alabay, has been a<br>guardian of livestock and property<br>for centuries. Originating from<br>Central Asia, these dogs are<br> renowned for their courage,<br>strength, and loyalty.</p>
             
         </div>
         <div class="box">
