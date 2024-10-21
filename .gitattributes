@@ -1,0 +1,5 @@
+Alabay[[:space:]]Assets filter=lfs diff=lfs merge=lfs -text
+index.js filter=lfs diff=lfs merge=lfs -text
+index.css filter=lfs diff=lfs merge=lfs -text
+index.html filter=lfs diff=lfs merge=lfs -text
+CHEESEBURGA[[:space:]]demo.ttf filter=lfs diff=lfs merge=lfs -text
