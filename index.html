@@ -16,6 +16,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <style>
+
+        @font-face {
+            font-family: 'chees';
+            src: url('CHEESEBURGA demo.ttf');
+        }
+
+
         body {
             background-image: url("Alabay Assets/Property 1=Component 10.png"); /* Replace with the actual path to your background image */ 
             background-size: 100%;  
@@ -72,50 +79,56 @@
         .box:nth-child(2) {
             background-color: #ffffff;
             transform: skewY(7.5deg); 
-            height: 200vh;
+            height: 85vh;
             margin-top: -50vh; 
+            overflow: visible;
         }
 
         .box:nth-child(3) {
             background-color: #ffc701;
             transform: skewY(-7.5deg); 
-            height: 200vh;
+            height: 85vh;
             margin-top: -50vh; 
+            overflow: visible;
         }
 
         .box:nth-child(4) {
             background-color: #ffffff;
             transform: skewY(7.5deg); 
             margin-top: -50vh; 
-            height: 200vh;
+            height: 85vh;
+            overflow: visible;
         }
 
         .box:nth-child(5) {
             background-color: #ffc701;
             transform: skewY(-7.5deg); 
             margin-top: -50vh; 
-            height: 200vh;
+            height: 85vh;
+            overflow: visible;
         }
 
         .box:nth-child(6) {
             background-color: #ffffff;
             transform: skewY(7.5deg); 
             margin-top: -50vh; 
-            height: 200vh;
+            height: 85vh;
+            overflow: visible;
         }
 
         .box:nth-child(7) {
             background-color: #ffc701;
             transform: skewY(-7.5deg); 
             margin-top: -50vh; 
-            height: 200vh;
+            height: 85vh;
+            overflow: visible;
         }
 
         .box:nth-child(8) {
             background-color: #ffffff;
             transform: skewY(7.5deg); 
             margin-top: -50vh; 
-            height: 300vh;
+            height: 85vh;
         }
         .history{
             width: 40%;
@@ -220,7 +233,49 @@
 
 
 
+        .protext{
+            transform: skewy(-7.5deg);
+            font-family: 'chees';
+            font-size: 45px;
+            
+            text-align: center;
+            
+            color: rgb(255, 168, 0);
+        }
 
+
+        .vision{
+            transform: translate(0%, -33%) skewy(7.5deg);
+            width: 100%;        
+            position: absolute;
+           
+        }
+        
+        
+        .visiontext{
+            transform: translate(0%, 330%) skewy(7.5deg);
+           font-weight: bolder;
+            font-family: 'Kumbh Sans', sans-serif;
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .visiontext2{
+            transform: translate(-20%, 180%) skewy(7.5deg);         
+            font-family: 'chees';
+            font-size: 45px;
+            text-align: center;
+            color: white;
+        }
+
+        .vision3{
+            transform: translate(95%, -40%) skewy(-7.5deg);
+            width: 50%;
+            position: absolute;
+            z-index: 1;
+            overflow: visible;
+            
+        }
 
 
     </style>
@@ -261,14 +316,32 @@
                     </svg>
                 </button>
 
-
-
-
             </div>
+
+            <p class="protext">PROJECT VISION</p>
+
+           
+         
         </div>
         
-        <div class="box"></div>
-        <div class="box"></div>
+        <div class="box">
+
+            <img src="Alabay Assets/Frame 17.png" alt="vision" class="vision">
+
+
+           
+
+            <p class="visiontext">Our mission is to honor the heritage of the Alabay by creating a <br> vibrant, loyal, and powerful community. Just as the Alabay protects its <br> flock, we aim to build a pack that stands strong together.</p>
+
+            <p class="visiontext2">ROAD MAP</p>
+
+            
+
+        </div>
+        <div class="box">
+
+            <img src="Alabay Assets/Frame 70.png" alt="vision" class="vision3">
+        </div>
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -276,6 +349,8 @@
         
         <h1>Your Content Here</h1>
         <p>Scroll up to reveal more content.</p>
+
+        
     </div>
 
 
