@@ -410,9 +410,90 @@
             transform: translate(0%, -850%)
         }      
 
+        .tokenomics{
+            position: absolute;
+            transform:  skewy(7.5deg);
+            font-family: 'chees';
+            font-size: 40px;
+            margin-top: 10%;
+            margin-left: 3%;
+            color: white;
+        }
 
 
+        .tokenomics-buttons{
+            transform: translate(0%, 0%) skewy(7.5deg);
+            display: flex;
+            flex-direction: column;
+           float: left;
+            margin-top: 28%;
+            margin-left: 4%;
+        }
 
+        .tokenomics-button{
+            background-color: rgb(53, 53, 53);
+            border: none;           
+            border-radius: 5px;
+            width: 120px;
+            height: 40px;
+           justify-content: space-around;
+           margin-bottom: 10px;
+           
+
+        }
+
+        .tokenomics-text{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 9px;
+            float: left;
+            font-weight: bold;
+            color: white;
+            margin-top: 2%;
+            transform: translate(10%, 10%)
+
+        }
+
+        .tokenomics-text2{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            font-weight: 800;
+            margin-left: 0%;
+           margin-right:40%;       
+           transform: translate(5%, -20%);           
+            color: rgb(255, 242, 128);
+        }
+
+        .tokenomics-text3{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            font-weight: 800;
+            margin-left: 0%;
+           margin-right:40%;       
+           transform: translate(-45%, -5%);           
+            color: rgb(255, 242, 128);
+        }
+
+        .tokenomics-img{
+            transform: translate(25%, 40%) skewy(7.5deg);
+            width: 45%;
+            position: absolute;
+        
+        }
+
+        .merch-container{
+            position: absolute;
+            transform: skewy(-7.5deg);
+            width: 100%;
+            height: 100%;
+        }
+
+        .merch{
+           margin-top: 10%;
+            font-family: 'chees';
+            font-size: 45px;   
+            text-align: center;          
+            color: rgb(255, 168, 0);
+        }
 
 
     </style>
@@ -523,8 +604,43 @@
 
 
         </div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <div class="box">
+
+
+            <p class="tokenomics">TOKENOMICS</p>
+
+            <P class="tokenomics-buttons">
+                <BUtton class="tokenomics-button"> 
+                    <p class="tokenomics-text">LIQUIDITY</p>
+                    <p class="tokenomics-text2">LOCKED</p>
+                
+                </BUtton>
+                <BUtton class="tokenomics-button">
+                    <p class="tokenomics-text">CONTRACT</p>
+                    <p class="tokenomics-text2">RENOUNCED</p>
+                 </BUtton>
+                <BUtton class="tokenomics-button"> 
+                    <p class="tokenomics-text">TAXES</p>
+                    <pre class="tokenomics-text3">0%</pre>
+                </BUtton>
+            </P>
+
+            <img src="Alabay Assets/Alabay Assets/Frame 19.png" alt="tokenomics" class="tokenomics-img">
+
+        </div>
+        <div class="box">
+
+
+            <div class="merch-container">
+                <p class="merch">MERCHANDISE</p>
+            </div>
+
+            
+
+          
+
+
+        </div>
         <div class="box"></div>
         <div class="box"></div>
         
@@ -546,7 +662,7 @@
 
         const items = [
             { imageUrl: "Alabay Assets/Alabay Assets/DALL·E 2024-07-29 17.36.01 - A 3D cartoon illustration of a cute furry Central Asian Shepherd dog holding a mobile phone and looking at it. The dog has expressive eyes, a fluffy c 2.png", caption: 'Image1' },
-            { imageUrl: 'Alabay Assets/Alabay Assets/DALL·E 2024-07-23 00.50.44 - A 3D cartoon illustration of a furry Central Asian Shepherd Alabay dog with big eyes, wearing a cap with a dollar logo on its head and counting money_ 1.png', caption: 'Image2' },
+            { imageUrl: 'Alabay Assets/Frame 17.png', caption: 'Image2' },
             { imageUrl: 'Alabay Assets/Alabay Assets/DALL·E 2024-07-15 01.33.29 - A full-body 3D cute cartoon illustration of a very happy furry Central Asian Shepherd dog dressed in a Viking outfit. The dog should have a big smile_ 1.png', caption: 'Image3' },
             { imageUrl: 'Alabay Assets/Alabay Assets/DALL·E 2024-07-15 01.32.53 - A full-body 3D cute cartoon illustration of a very happy furry Central Asian Shepherd dog celebrating with a trophy. The dog should have a big smile a 1.png', caption: 'Image4' },
             { imageUrl: 'Alabay Assets/Alabay Assets/DALL·E 2024-07-15 01.31.03 - A full-body 3D cute cartoon illustration of a very happy furry Central Asian Shepherd dog dressed in a t-shirt with an Alabay dog printed on it and we 2.png', caption: 'Image5' },
